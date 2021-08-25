@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <section class="outputField"></section>
+
+        <section  class="operators">
+            <button class="operator" onclick="outputDisplay('+')">+</button>
+            <button class="operator" onclick="outputDisplay('-')">-</button>
+            <button class="operator" onclick="outputDisplay('*')">x</button>
+            <button class="operator" onclick="outputDisplay('/')">/</button>
+        </section>
+
+        <section class="inputField">
+            <section class="numbers">
+                <button class="number" onclick="outputDisplay('1')">1</button>
+                <button class="number" onclick="outputDisplay('2')">2</button>
+                <button class="number" onclick="outputDisplay('3')">3</button>
+                <button class="number" onclick="outputDisplay('4')">4</button>
+                <button class="number" onclick="outputDisplay('5')">5</button>
+                <button class="number" onclick="outputDisplay('6')">6</button>
+                <button class="number" onclick="outputDisplay('7')">7</button>
+                <button class="number" onclick="outputDisplay('8')">8</button>
+                <button class="number" onclick="outputDisplay('9')">9</button>
+                <button class="number" onclick="outputDisplay('0')">0</button>
+                <button class="number" onclick="outputDisplay('.')">.</button>
+                <button class="number" onclick="clearDisplay()">C</button>
+            </section>
+
+            <section class="equals" onclick="displayResult()">
+               <strong> = </strong>
+            </section>
+        </section>
+
+    </body>
+</html>
